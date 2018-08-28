@@ -17,7 +17,7 @@ public class HelloController{
 
     @GetMapping("/test")
     public String test() {
-        return "Hey Ankit";
+        return "Hey Ankit!! THis is updated!";
     }
 
     @GetMapping("")
