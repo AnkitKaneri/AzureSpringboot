@@ -12,12 +12,12 @@ public class HelloController{
     
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Greetings from team!";
     }
 
     @GetMapping("/test")
     public String test() {
-        return "Hey Ankit";
+        return "Hey Vighnesh & Ankit";
     }
 
     @GetMapping("")
